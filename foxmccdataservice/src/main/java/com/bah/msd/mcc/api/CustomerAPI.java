@@ -30,6 +30,7 @@ public class CustomerAPI {
 
 	@GetMapping
 	public Iterable<Customer> getAll() {
+		System.out.println("getAll () is called");
 		return repo.findAll();
 	}
 
