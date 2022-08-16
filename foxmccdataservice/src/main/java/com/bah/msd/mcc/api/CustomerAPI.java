@@ -37,6 +37,7 @@ public class CustomerAPI {
 	@GetMapping("/{customerId}")
 	public Optional<Customer> getCustomerById(@PathVariable("customerId") long id) {
 		//return repo.findOne(id);
+		System.out.println("getCustomerById () is called");
 		return repo.findById(id);
 	}
 	
