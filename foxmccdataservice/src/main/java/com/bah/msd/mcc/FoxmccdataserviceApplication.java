@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FoxmccdataserviceApplication {
 
 	public static void main(String[] args) {
+		System.out.println("main begins");
 		SpringApplication.run(FoxmccdataserviceApplication.class, args);
 	}
 
